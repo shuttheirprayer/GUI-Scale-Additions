@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.misanthropy.gui_scale_additions.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "gui_scale_additions.refmap.json",
+  "client": [
+    "WindowMixin",
+    "OptionsMixin",
+    "VideoSettingsScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
